@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Login Popup -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-card">
+            <h2>Welcome, My Suttuuu! 💖</h2>
+            <p class="login-subtitle">Enter the secret code to continue</p>
+            <p class="login-subtitle">P.S: It is a special date in DDMMYY format!</p>
+            <input type="password" id="passwordInput" class="password-input" placeholder="Enter password..."
+                maxlength="10">
+            <p class="login-message" id="loginMessage"></p>
+            <button class="btn btn-unlock" id="unlockBtn">Unlock 💝</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="quiz-card">
+            <div class="quiz-header">
+                <span class="quiz-badge">Quiz Time</span>
+                <h1>Test Your Knowledge</h1>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p class="question-counter">Question <span id="currentQuestion">1</span> of <span
+                        id="totalQuestions">5</span></p>
+            </div>
+
+            <div class="quiz-body" id="quizBody">
+                <h2 class="question" id="questionText"></h2>
+                <div class="options-container" id="optionsContainer"></div>
+            </div>
+
+            <div class="quiz-footer">
+                <button class="btn btn-next" id="nextBtn" disabled>Next Question</button>
+            </div>
+
+            <!-- Result Modal -->
+            <div class="result-modal" id="resultModal">
+                <div class="result-content">
+                    <div class="result-icon" id="resultIcon"></div>
+                    <h3 id="resultText"></h3>
+                    <button class="btn btn-continue" id="continueBtn">Continue</button>
+                </div>
+            </div>
+
+            <!-- Valentine's Question Screen -->
+            <div class="final-screen" id="finalScreen">
+                <div class="final-content valentine-content">
+                    <div class="hearts-animation">
+                        <span class="floating-heart">💕</span>
+                        <span class="floating-heart">💖</span>
+                        <span class="floating-heart">💗</span>
+                    </div>
+                    <h2 class="valentine-question">Will you be my Valentine forever? 💝</h2>
+                    <div class="valentine-buttons">
+                        <button class="btn btn-yes" id="yesBtn">Yes! 💖</button>
+                        <button class="btn btn-no" id="noBtn">No</button>
+                    </div>
+                </div>
+                <!-- Success Screen -->
+                <div class="success-screen" id="successScreen">
+                    <div class="celebration">🎉💕🎊</div>
+                    <h2>Yay! I love you! 💖</h2>
+                    <p>You've made me the happiest person!</p>
+                    <a href="slideshow.html" class="btn btn-surprise">🎁 Click this for a surprise present!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=3"></script>
+</body>
+
+</html>

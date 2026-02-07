@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Where did we go for our first ride together?",
+        "options": [
+            "Lonavala",
+            "Imagica",
+            "Chikloli Dam",
+            "Mogliche Dam"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Where did we first see each other?",
+        "options": [
+            "Your Clinic",
+            "Some Wedding",
+            "Kalyan Palli",
+            "Felix's House"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What do you want to eat for dinner on our next date?",
+        "options": [
+            "Chinese",
+            "Italian",
+            "Pani Puri",
+            "Thali"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which song did I respond to on Instagram stories?",
+        "options": [
+            "Ye Vaada Raha",
+            "One Call Away",
+            "Ente Kannil Ninakai",
+            "Dard-e-Disco"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What was our first dance song?",
+        "options": [
+            "Perfect",
+            "Uyire",
+            "A Thousand Years",
+            "Dandelions"
+        ],
+        "correct": 3
+    }
+]

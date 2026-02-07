@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories Together 💕</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+
+<body>
+    <div class="hearts-bg">
+        <div class="heart h1">💕</div>
+        <div class="heart h2">💖</div>
+        <div class="heart h3">💗</div>
+        <div class="heart h4">💝</div>
+        <div class="heart h5">❤️</div>
+    </div>
+
+    <div class="slideshow-container">
+        <h1 class="title">Our Beautiful Journey Together</h1>
+        <p class="subtitle">Every moment with you is precious 💖</p>
+
+        <div class="slider">
+            <div class="slides" id="slides">
+                <!-- Slides will be generated from images.json -->
+            </div>
+
+            <button class="nav-btn prev" id="prevBtn">❮</button>
+            <button class="nav-btn next" id="nextBtn">❯</button>
+        </div>
+
+        <div class="dots" id="dots"></div>
+
+        <div class="caption-container">
+            <p class="caption" id="caption"></p>
+        </div>
+
+        <a href="index.html" class="btn-back">← Back to Quiz</a>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="puthumazha.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="slideshow.js"></script>
+</body>
+
+</html>
