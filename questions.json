@@ -4,10 +4,10 @@
         "options": [
             "Lonavala",
             "Imagica",
-            "Chikloli Dam",
-            "Mogliche Dam"
+            "Dam",
+            "Coconut Lagoon"
         ],
-        "correct": 3
+        "correct": 2
     },
     {
         "question": "Where did we first see each other?",
@@ -30,7 +30,7 @@
         "correct": 1
     },
     {
-        "question": "Which song did I respond to on Instagram stories?",
+        "question": "Which song did you respond to on Instagram stories?",
         "options": [
             "Ye Vaada Raha",
             "One Call Away",
@@ -40,7 +40,7 @@
         "correct": 1
     },
     {
-        "question": "What was our first dance song?",
+        "question": "What was our first look song?",
         "options": [
             "Perfect",
             "Uyire",
