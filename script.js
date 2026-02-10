@@ -6,7 +6,7 @@ let currentQuestion = 0;
 let score = 0;
 
 // Login State
-const SECRET_PASSWORD = '060623';
+const SECRET_PASSWORD = '060523';
 let loginAttempts = 0;
 
 // Wait for DOM to be ready
